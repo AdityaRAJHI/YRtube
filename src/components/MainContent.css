@@ -1,0 +1,141 @@
+.main-content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      position: relative;
+      justify-content: space-between;
+    }
+
+    .website-name {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+
+    .channel-logo-container {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .channel-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .channel-logo.dot-style {
+      border-radius: 50%;
+    }
+
+    .search-bar {
+      display: flex;
+      flex: 1;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 20px 0 0 20px;
+      outline: none;
+    }
+
+    .search-button {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 0 20px 20px 0;
+      padding: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: none;
+    }
+
+    .header-buttons {
+      display: flex;
+      align-items: center;
+    }
+
+    .create-button,
+    .notification-button {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 10px 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      outline: none;
+    }
+
+    .create-button {
+      padding: 10px 20px;
+    }
+
+    .home-categories {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+
+    .category-button {
+      background-color: #e0e0e0;
+      border: none;
+      border-radius: 20px;
+      padding: 8px 16px;
+      margin-right: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background-color 0.3s;
+    }
+
+    .category-button:hover,
+    .category-button:focus {
+      background-color: #d0d0d0;
+    }
+
+    .category-button:first-child {
+      background-color: #c0c0c0;
+    }
+
+    .channel-menu {
+      position: absolute;
+      top: 50px;
+      right: 0;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      width: 250px;
+      z-index: 100;
+    }
+
+    .menu-header {
+      padding: 5px 0;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      padding: 8px 0;
+      cursor: pointer;
+    }
+
+    .menu-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    .menu-icon {
+      margin-right: 10px;
+    }

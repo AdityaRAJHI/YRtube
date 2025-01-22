@@ -1,0 +1,25 @@
+.home-categories {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px 0;
+    }
+
+    .category-button {
+      background-color: #e0e0e0;
+      border: none;
+      border-radius: 20px;
+      padding: 8px 16px;
+      margin-right: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background-color 0.3s;
+    }
+
+    .category-button:hover,
+    .category-button:focus {
+      background-color: #d0d0d0;
+    }
+
+    .category-button:first-child {
+      background-color: #c0c0c0;
+    }
